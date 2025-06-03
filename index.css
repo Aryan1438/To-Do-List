@@ -1,0 +1,78 @@
+
+*{
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    overflow: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#listContainer{
+    max-height: 300px;
+    overflow: auto;
+}
+
+
+.main-container{
+    padding-top: 10%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, pink, aqua);
+}
+
+header>.input-container>input{
+    border: none;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px; 
+    outline: none;
+}
+
+header>.input-container>input[type=button]{
+    background-color: #ffa500;
+    border-radius: 5px; 
+    color: #ffffff;
+    padding:5px 12px;
+}
+
+header>.input-container{
+    border: 1px #ffffff;
+    background-color: #ffffff;
+    border-radius: 5px; 
+}
+
+.to-do-list{
+    margin: auto;
+    padding: 5px;
+    width: fit-content;
+    /* width: 300px; */
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.float-left{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.float-right{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.float-right>span:hover{
+    cursor: pointer;
+}
